@@ -6,8 +6,22 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
 		<title>My Landing Page</title>
-        <link rel="stylesheet" href="./assets/reset.css">
-        <link rel="stylesheet" href="./assets/styles.css">
+		<link
+			rel="stylesheet"
+			href="./assets/reset.css" />
+		<link
+			rel="stylesheet"
+			href="./assets/styles.css" />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Titillium+Web&display=swap"
+			rel="stylesheet" />
 	</head>
 	<body>
 		<header class="header">
@@ -27,17 +41,16 @@
 					src="./assets/image_1.png"
 					alt="Placeholder image with the text coming soon" />
 				<figcaption class="center">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Consequuntur, reiciendis eligendi consequatur dolores repudiandae
-					excepturi.
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+					Maiores, dolorem?
 				</figcaption>
 			</figure>
 
 			<section>
-				<h2>Contact Me</h2>
-				<form action="get">
+				<h2 class="center">Contact Me</h2>
+				<form action="#">
 					<ul>
-						<li>
+						<li class="form-input">
 							<label for="name">Name:</label>
 							<input
 								type="text"
@@ -45,7 +58,7 @@
 								name="name"
 								placeholder="Jerome powell" />
 						</li>
-						<li>
+						<li class="form-input">
 							<label for="email">Email:</label>
 							<input
 								type="text"
@@ -54,7 +67,8 @@
 								placeholder="Jeromepowell@yahoo.com" />
 						</li>
 					</ul>
-					<button type="submit">SEND</button>
+
+					<div class="center"><button type="submit">SEND</button></div>
 				</form>
 			</section>
 		</main>
